@@ -5,13 +5,14 @@ sonic odyssey 105x tx for 0.001 SOL | daily task
 ### Edit Private Key json
 
 ```
-di privateKey.json
+file: privateKey.json
 ```
 
-Ganti Dengan Private Key Wallet Solana Kalian Save
+Ganti Dengan Private Key Wallet Solana Kalian, lalu Save
 
 ### Jalankan
 
 ```
+npm install
 npm start
 ```
