@@ -56,7 +56,7 @@ function getKeypairFromPrivateKey(privateKeyBase58) {
   for (let i = 0; i < HOW_MANY_TRANSACTIONS; i++) {
     // tunggu 5-8 detik untuk setiap transaksi
     await new Promise((resolve) =>
-      setTimeout(resolve, 5000 + Math.random() * 3000)
+      setTimeout(resolve, Math.floor(Math.random() * (8000 - 5000 + 1)) + 5000)
     )
 
     console.log(colors.blue(`\nTransaksi ${i + 1}:`))
